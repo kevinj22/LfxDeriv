@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552353964713.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F80D68F",
+    "lastKnownWriteTime" : 1552354331,
+    "last_content_update" : 1552354331381,
+    "path" : "F:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/R/Deriv.R",
+    "project_path" : "R/Deriv.R",
+    "properties" : {
+        "cursorPosition" : "3,23",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

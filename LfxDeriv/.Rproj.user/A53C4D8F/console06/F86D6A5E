@@ -1,0 +1,1433 @@
+[0m[0K]0;:/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[?25l
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>][0K
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path][0K
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare][0K
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>][0K
+           <command> [<args>][0K
+[0K
+These are common Git commands used in various situations:[0K
+[0K
+start a working area (see also: git help tutorial)[0K
+   clone      Clone a repository into a new directory[0K
+   init       Create an empty Git repository or reinitialize an existing one[0K
+[0K
+work on the current change (see also: git help everyday)[0K
+   add        Add file contents to the index[0K
+   mv         Move or rename a file, a directory, or a symlink[0K
+   reset      Reset current HEAD to the specified state[0K
+   rm         Remove files from the working tree and from the index[0K
+[0K
+examine the history and state (see also: git help revisions)[0K
+   bisect     Use binary search to find the commit that introduced a bug[0K
+   grep       Print lines matching a pattern[0K
+   log        Show commit logs[0K
+   show       Show various types of objects[0K
+   status     Show the working tree status[0K
+[0K
+grow, mark and tweak your common history[0K
+   branch     List, create, or delete branches[0K
+   checkout   Switch branches or restore working tree files[0K
+   commit     Record changes to the repository[0K
+   diff       Show changes between commits, commit and working tree, etc[0K
+   merge      Join two or more development histories together[0K
+   rebase     Reapply commits on top of another base tip[0K
+   tag        Create, list, delete or verify a tag object signed with GPG[0K
+[0K
+collaborate (see also: git help workflows)[0K
+   fetch      Download objects and refs from another repository[0K
+   pull       Fetch from and integrate with another repository or a local branch[0K
+   push       Update remote refs along with associated objects[0K
+[0K
+'git help -a' and 'git help -g' list available subcommands and some[0K
+concept guides. See 'git help <command>' or 'git help <concept>'[0K
+to read about a specific subcommand or concept.[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git i[0K[?25hn[0Ki[0Kt[0K[?25l
+Initialized empty Git repository in F:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0K[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rhistory.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/cpp-definition-cache.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/files-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/packages-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/source-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/workbench-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/persistent-state.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/rmd-outputs.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/6F4C28FE.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/7BA1467F.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/AB42EF0F.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/BF2814BA.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/CD3B23E5.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/CFCFE4E4.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/D6DB9247.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/INDEX.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/46B0F00F.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/46B0F00F-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/5FE8F46E.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/5FE8F46E-contents.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/716292E6.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/716292E6-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/F80D68F.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/F80D68F-contents.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[?25l
+[0K[?25hhint: Waiting for your editor to close the file...[0K[52G[0m[1;1H[2J[?25l[0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+"F:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG" [converted][unix] 57L, 2481C[0K[?25h[?25l[26A[?25h[?25l
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG [unix] (17:51 11/04/2019)                                                          1,0-1 To[0Kp
+[0m"F:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG" [converted][unix] 57L, 2481C[0K[26A[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG [unix] (17:51 11/04/2019)                                                            1,1 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[?25h[0;33;93mn[0m[0K[?25l
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,2 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[2G[?25h[?25l[0;33;93mni[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,3 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[3G[?25h[?25l[0;33;93mnit[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,4 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[4G[?25h[?25l[0;33;93mniti[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,5 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[5G[?25h[?25l[0;33;93mnitia[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,6 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[6G[?25h[?25l[0;33;93mnitial[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,7 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[7G[?25h[?25l[0;33;93mnitia[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,6 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[6G[?25h[?25l[0;33;93mniti[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,5 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[5G[?25h[?25l[0;33;93mnit[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,4 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[4G[?25h[?25l[0;33;93mni[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,3 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[3G[?25h[?25l[0;33;93mn[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,2 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[2G[?25h[?25l[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,1 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[?25h[0;33;93mI[0m[0K[?25l
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,2 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[2G[?25h[?25l[0;33;93mIn[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,3 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[3G[?25h[?25l[0;33;93mIni[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,4 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[4G[?25h[?25l[0;33;93mInit[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,5 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[5G[?25h[?25l[0;33;93mIniti[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,6 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[6G[?25h[?25l[0;33;93mInitia[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,7 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[7G[?25h[?25l[0;33;93mInitial[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,8 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[8G[?25h[?25l[0;33;93mInitial [0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         1,9 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[9G[?25h[?25l[0;33;93mInitial C[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        1,10 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[10G[?25h[?25l[0;33;93mInitial Co[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        1,11 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[11G[?25h[?25l[0;33;93mInitial Com[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        1,12 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[12G[?25h[?25l[0;33;93mInitial Comm[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        1,13 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[13G[?25h[?25l[0;33;93mInitial Commi[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        1,14 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[14G[?25h[?25l[0;33;93mInitial Commit[0m[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        1,15 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[15G[?25h[?25l
+[0K
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                         2,1 To[0Kp
+[0;1m-- INSERT --[0m[0K[25A[?25h[0;33;93mInitial Commit[0m[0K[?25l
+[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        1,15 To[0Kp
+[0;1m-- INSERT --[0m[0K[26A[15G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        2,15 To[0Kp
+[0;1m-- INSERT --[0m[0K[25A[15G[?25h[?25l[0;36;96m# Please enter: the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        2,16 To[0Kp
+[0;1m-- INSERT --[0m[0K[25A[16G[?25h[?25l[0;36;96m# Please enter the commit message for your changes. Lines starting[0m[0K
+[0;36;96m# with '#' will be ignored, and an empty message aborts the commit.[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# On branch [0;31;91mmaster[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# Initial commit[0m[0K
+[0;36;96m#[0m[0K
+[0;36;96m# [0;34;94mChanges to be committed:[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .RData[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rbuildignore[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rhistory[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/cpp-definition-cache[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/files-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/source-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/persistent-state[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/rmd-outputs[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/saved_source_markers[0m[0K
+[0;36;96m#       [0;32;92mnew file[0;36;96m: [0;35;95m  .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0m[0K
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        2,15 To[0Kp
+[0;1m-- INSERT --[0m[0K[25A[15G[?25h[6n[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                        ^[[0K[25A[14G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0;7mF:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/COMMIT_EDITMSG[+] [unix] (17:51 11/04/2019)                                                        2,14 To[0Kp
+[0m[0K[25A[14G[?25h[?25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:[0K[?25hw[0Kq[0K[?25l[26A[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0m[0K
+$ git[0K
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>][0K
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path][0K
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare][0K
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>][0K
+           <command> [<args>][0K
+[0K
+These are common Git commands used in various situations:[0K
+[0K
+start a working area (see also: git help tutorial)[0K
+   clone      Clone a repository into a new directory[0K
+   init       Create an empty Git repository or reinitialize an existing one[0K
+[0K
+work on the current change (see also: git help everyday)[0K
+   add        Add file contents to the index[0K
+   mv         Move or rename a file, a directory, or a symlink[0K
+   reset      Reset current HEAD to the specified state[0K
+   rm         Remove files from the working tree and from the index[0K
+[0K
+examine the history and state (see also: git help revisions)[0K
+   bisect     Use binary search to find the commit that introduced a bug[0K
+   grep       Print lines matching a pattern[0K
+   log        Show commit logs[0K
+   show       Show various types of objects[0K
+   status     Show the working tree status[0K
+[0K
+grow, mark and tweak your common history[0K
+   branch     List, create, or delete branches[0K
+   checkout   Switch branches or restore working tree files[0K
+   commit     Record changes to the repository[0K
+   diff       Show changes between commits, commit and working tree, etc[0K
+   merge      Join two or more development histories together[0K
+   rebase     Reapply commits on top of another base tip[0K
+   tag        Create, list, delete or verify a tag object signed with GPG[0K
+[0K
+collaborate (see also: git help workflows)[0K
+   fetch      Download objects and refs from another repository[0K
+   pull       Fetch from and integrate with another repository or a local branch[0K
+   push       Update remote refs along with associated objects[0K
+[0K
+'git help -a' and 'git help -g' list available subcommands and some[0K
+concept guides. See 'git help <command>' or 'git help <concept>'[0K
+to read about a specific subcommand or concept.[0K
+[0K
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0m[0K
+$ git init[0K
+Initialized empty Git repository in F:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/.git/[0K
+[0K
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$ git add .[0K
+warning: LF will be replaced by CRLF in .Rhistory.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/cpp-definition-cache.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/files-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/packages-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/source-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/pcs/workbench-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/persistent-state.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/rmd-outputs.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/6F4C28FE.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/7BA1467F.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/AB42EF0F.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/BF2814BA.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/CD3B23E5.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/CFCFE4E4.[0K
+The file will have its original line endings in your working directory[0K[1G[?25h[?25l
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/D6DB9247.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/prop/INDEX.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/46B0F00F.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/46B0F00F-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/5FE8F46E.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/5FE8F46E-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/716292E6.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/716292E6-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/F80D68F.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/A53C4D8F/sources/s-A036BB43/F80D68F-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K
+The file will have its original line endings in your working directory[0K
+[0K
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$ git commit[0K
+[0;30;8m[0K[?25h[0m[master (root-commit) 27c78f3] Initial Commit[0;30;8m[0K[?25l
+[0m 44 files changed, 4923 insertions(+)[0K
+ create mode 100644 .RData[0K
+ create mode 100644 .Rbuildignore[0K
+ create mode 100644 .Rhistory[0K
+ create mode 100644 .Rproj.user/A53C4D8F/console06/F86D6A5E[0K
+ create mode 100644 .Rproj.user/A53C4D8F/console06/INDEX001[0K
+ create mode 100644 .Rproj.user/A53C4D8F/cpp-definition-cache[0K
+ create mode 100644 .Rproj.user/A53C4D8F/pcs/debug-breakpoints.pper[0K
+ create mode 100644 .Rproj.user/A53C4D8F/pcs/files-pane.pper[0K
+ create mode 100644 .Rproj.user/A53C4D8F/pcs/packages-pane.pper[0K
+ create mode 100644 .Rproj.user/A53C4D8F/pcs/source-pane.pper[0K
+ create mode 100644 .Rproj.user/A53C4D8F/pcs/windowlayoutstate.pper[0K
+ create mode 100644 .Rproj.user/A53C4D8F/pcs/workbench-pane.pper[0K
+ create mode 100644 .Rproj.user/A53C4D8F/persistent-state[0K
+ create mode 100644 .Rproj.user/A53C4D8F/rmd-outputs[0K
+ create mode 100644 .Rproj.user/A53C4D8F/saved_source_markers[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/prop/6F4C28FE[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/prop/7BA1467F[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/prop/AB42EF0F[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/prop/BF2814BA[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/prop/CD3B23E5[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/prop/CFCFE4E4[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/prop/D6DB9247[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/prop/INDEX[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/46B0F00F[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/46B0F00F-contents[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/5FE8F46E[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/5FE8F46E-contents[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/716292E6[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/716292E6-contents[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/F80D68F[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/F80D68F-contents[0K
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/lock_file[0K
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names[0K
+ create mode 100644 .Rproj.user/shared/notebooks/paths[0K
+ create mode 100644 DESCRIPTION[0K
+ create mode 100644 LfxDeriv.Rproj[0K
+ create mode 100644 NAMESPACE[0K
+ create mode 100644 R/Deriv.R[0K
+ create mode 100644 R/LfxDeriv.R[0K
+ create mode 100644 R/Simplify.R[0K
+ create mode 100644 R/hello.R[0K
+ create mode 100644 man/hello.Rd[0K
+ create mode 100644 tests/testthat.R[0K
+ create mode 100644 tests/testthat/tests.R[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git commit[0K[?25h[?25l
+[0K[?25hOn branch master[0K[?25l
+Changes not staged for commit:[0K
+        [0;31mmodified:   .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0K
+no changes added to commit[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l[26A create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/[0K7
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/[0KF
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/[0KF
+ create mode 100644 .Rproj.user/A53C4D8F/sources/s-A036BB43/[0Kl
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk[0K-
+ create mode 100644 .Rproj.user/shared/notebooks/paths[0K
+ create mode 100644 DESCRIPTION[0K
+ create mode 100644 LfxDeriv.Rproj[0K
+ create mode 100644 NAMESPACE[0K
+ create mode 100644 R/Deriv.R[0K
+ create mode 100644 R/LfxDeriv.R[0K
+ create mode 100644 R/Simplify.R[0K
+ create mode 100644 R/hello.R[0K
+ create mode 100644 man/hello.Rd[0K
+ create mode 100644 tests/testthat.R[0K
+ create mode 100644 tests/testthat/tests.R[0K
+[0K
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+[0m$ git commit[0K
+On branch master[0K
+Changes not staged for commit:[0K
+        [0;31mmodified:   .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+[0K
+no changes added to commit[0K
+[0K
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+[0m$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[14G[?25l$ git remote a[0K[?25hd[0Kd[0K[18G[?25l$ git remote add o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[25G[?25l$ git remote add origin h[0K[?25ht[0Kt[0Kp[0Ks[0K:[0K/[0K/[0Khttps://github.com/kevinj22/[0K[?25l
+LfxDeriv[0K[?25h[8G[7G[6G[5G[4G[3G[2G[1G[?25l[1A[60G[?25h[59G[58G[56G[55G[54G[53G[52G[51G[50G[49G[48G[47G[46G[45G[44G[43G[42G[41G[40G[39G[38G[37G[36G[35G[34G[33G[32G[31G[30G[29G[28G[27G[26G[25G[?25l$ git remote add origin ttps://https://github.com/kevinj22/L[0K
+fxDeriv[0K[1A[25G[?25h[?25l$ git remote add origin tps://https://github.com/kevinj22/Lf[0K
+xDeriv[0K[1A[25G[?25h[?25l$ git remote add origin ps://https://github.com/kevinj22/Lfx[0K
+Deriv[0K[1A[25G[?25h[?25l$ git remote add origin s://https://github.com/kevinj22/LfxD[0K
+eriv[0K[1A[25G[?25h[?25l$ git remote add origin ://https://github.com/kevinj22/LfxDe[0K
+riv[0K[1A[25G[?25h[?25l$ git remote add origin //https://github.com/kevinj22/LfxDer[0K
+iv[0K[1A[25G[?25h[?25l$ git remote add origin /https://github.com/kevinj22/LfxDeri[0K
+v[0K[1A[25G[?25h[?25l$ git remote add origin https://github.com/kevinj22/LfxDeriv[0K
+[0K[1A[25G[?25h[?25l$ git remote add origin ttps://github.com/kevinj22/LfxDeriv[0K
+[0K[1A[25G[?25h[?25l$ git remote add origin https://github.com/kevinj22/LfxDeriv[0K
+[0K[1A[26G[?25h[?25l
+[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+riv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push 0[0K[?25h[?25l$ git push[0K[12G[?25h[?25l$ git push -[0K[?25hu[0K[15G[?25l$ git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[22G[?25l$ git push -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hTo https://github.com/kevinj22/LfxDeriv[0K[?25l
+ [0;31m! [rejected]       [0m master -> master (fetch first)[0K
+[0;31merror: failed to push some refs to 'https://github.com/kevin[0Kj
+22/LfxDeriv'[0m[0K
+[0;33mhint: Updates were rejected because the remote contains work[0K
+that you do[0m[0K
+[0;33mhint: not have locally. This is usually caused by another re[0Kp
+ository pushing[0m[0K
+[0;33mhint: to the same ref. You may want to first integrate the r[0Ke
+mote changes[0m[0K
+[0;33mhint: (e.g., 'git pull ...') before pushing again.[0m[0K
+[0;33mhint: See the 'Note about fast-forwards' in 'git push --help[0K'
+ for details.[0m[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+riv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[?25l
+[0K[?25hwarning: no common commits[0K[?25l
+[0K[?25hremote: Enumerating objects: 3, done.[0K[?25l
+remote: Counting objects: 100% (3/3), done.[0K
+remote: Compressing objects: 100% (2/2), done.[0K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[0K
+[0K[?25hUnpacking objects: 100% (3/3), done.[0K[?25l
+From https://github.com/kevinj22/LfxDeriv[0K
+ * [new branch]      master     -> origin/master[0K
+[0K[?25hThere is no tracking information for the current branch.[0K[?25l
+Please specify which branch you want to merge with.[0K
+See git-pull(1) for details.[0K
+[0K
+    git pull <remote> <branch>[0K
+[0K
+If you wish to set tracking information for this branch you [0Kc
+an do so with:[0K
+[0K
+    git branch --set-upstream-to=origin/<branch> master[0K
+[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+riv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git pull[0K[?25h[?25l$ git push -u origin master[0K[?25h[?25l
+[0K[?25hTo https://github.com/kevinj22/LfxDeriv[0K[?25l
+ [0;31m! [rejected]       [0m master -> master (non-fast-forward)[0K
+[0;31merror: failed to push some refs to 'https://github.com/kevin[0Kj
+22/LfxDeriv'[0m[0K
+[0;33mhint: Updates were rejected because the tip of your current [0Kb
+ranch is behind[0m[0K
+[0;33mhint: its remote counterpart. Integrate the remote changes ([0Ke
+.g.[0m[0K
+[0;33mhint: 'git pull ...') before pushing again.[0m[0K
+[0;33mhint: See the 'Note about fast-forwards' in 'git push --help[0K'
+ for details.[0m[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+riv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git push -u origin master[0K[?25h[?25l$ git pull[0K[?25h[?25l$ git push -u origin master[0K[?25h[?25l$ git remote add origin https://github.com/kevinj22/LfxDeriv[0K
+[0K[?25h[?25l[1A$ git commit[0K
+[0K[1A[13G[?25h[?25l
+On branch master[0K
+Changes not staged for commit:[0K
+        [0;31mmodified:   .Rproj.user/A53C4D8F/console06/F86D6A5E[0m[0K
+        [0;31mmodified:   .Rproj.user/A53C4D8F/console06/INDEX001[0m[0K
+[0K
+no changes added to commit[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+riv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git commit[0K[?25h[?25l$ git push -u origin master[0K[?25h[?25l$ git pull[0K[?25h[?25l
+[0K[?25hThere is no tracking information for the current branch.[0K[?25l
+Please specify which branch you want to merge with.[0K
+See git-pull(1) for details.[0K
+[0K
+    git pull <remote> <branch>[0K
+[0K
+If you wish to set tracking information for this branch you [0Kc
+an do so with:[0K
+[0K
+    git branch --set-upstream-to=origin/<branch> master[0K
+[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+riv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git pull[0K[?25h[?25l$ git commit[0K[?25h[?25l$ git push -u origin master[0K[?25h[27G[26G[25G[24G[23G[22G[21G[19G[18G[17G[16G[15G[14G[13G[12G[?25l$ git push u origin master[0K[12G[?25h[?25l$ git push  origin master[0K[12G[?25h[?25l$ git push origin master[0K[12G[?25h[?25l$ git push rigin master[0K[12G[?25h[?25l$ git push igin master[0K[12G[?25h[?25l$ git push gin master[0K[12G[?25h[?25l$ git push in master[0K[12G[?25h[?25l$ git push n master[0K[12G[?25h[?25l$ git push  master[0K[12G[?25h[?25l$ git push master[0K[12G[?25h[?25l$ git push aster[0K[12G[?25h[?25l$ git push ster[0K[12G[?25h[?25l$ git push ter[0K[12G[?25h[?25l$ git push er[0K[12G[?25h[?25l$ git push r[0K[12G[?25h[?25l$ git push[0K[12G[?25h[?25l
+fatal: The current branch master has no upstream branch.[0K
+To push the current branch and set the remote as upstream, u[0Ks
+e[0K
+[0K
+    git push --set-upstream origin master[0K
+[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0m[0K[?25h[0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke[?25l
+riv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git push[0K[12G[?25h[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git push origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hTo https://github.com/kevinj22/LfxDeriv[0K[?25l
+ [0;31m! [rejected]       [0m master -> master (non-fast-forward)[0K
+[0;31merror: failed to push some refs to 'https://github.com/kevin[0Kj
+22/LfxDeriv'[0m[0K
+[0;33mhint: Updates were rejected because the tip of your current [0Kb
+ranch is behind[0m[0K
+[0;33mhint: its remote counterpart. Integrate the remote changes ([0Ke
+.g.[0m[0K
+[0;33mhint: 'git pull ...') before pushing again.[0m[0K
+[0;33mhint: See the 'Note about fast-forwards' in 'git push --help[0K'
+ for details.[0m[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+riv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[12G[?25l$ git pull o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git pull origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hFrom https://github.com/kevinj22/LfxDeriv[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+[0K[?25hfatal: refusing to merge unrelated histories[0K[?25l
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git pull origin master[0K[?25h[?25l
+[0K[?25hFrom https://github.com/kevinj22/LfxDeriv[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+[0K[?25hfatal: refusing to merge unrelated histories[0K[?25l
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git pull origin master[0K[?25h[?25l$ git push origin master[0K[?25h[?25l
+[0K[?25hTo https://github.com/kevinj22/LfxDeriv[0K[?25l
+ [0;31m! [rejected]       [0m master -> master (non-fast-forward)[0K
+[0;31merror: failed to push some refs to 'https://github.com/kevinj22/LfxDeriv'[0m[0K
+[0;33mhint: Updates were rejected because the tip of your current branch is behind[0m[0K
+[0;33mhint: its remote counterpart. Integrate the remote changes (e.g.[0m[0K
+[0;33mhint: 'git pull ...') before pushing again.[0m[0K
+[0;33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[0m[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ c[0K[?25hd[0K[6G[?25l$ cd .[0K[?25h.[0K[?25l
+[0K[?25h]0;:/f/York/Courses/Math_4939/LfxDerivPackage[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[6G[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git i[0K[?25hn[0Ki[0Kt[0Ki[0K[?25l$ git init[0K[?25h[?25l
+Initialized empty Git repository in F:/York/Courses/Math_4939/LfxDerivPackage/.git/[0K
+[0K[?25h[?25l
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l[21A[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+[0m$ git push origin master[0K
+To https://github.com/kevinj22/LfxDeriv[0K
+ [0;31m! [rejected]       [0m master -> master (non-fast-forward)[0K
+[0;31merror: failed to push some refs to 'https://github.com/kevin[0Kj
+[0;33mhint: Updates were rejected because the tip of your current [0Kb
+hint: its remote counterpart. Integrate the remote changes ([0Ke
+hint: 'git pull ...') before pushing again.[0m[0K
+[0;33mhint: See the 'Note about fast-forwards' in 'git push --help[0K'
+[0m[0K
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+[0m$[0K
+[0K
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage/LfxD[0Ke
+[0m$ cd ..[0K
+[0K
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage[0m[0K
+$ git init[0K
+Initialized empty Git repository in F:/York/Courses/Math_493[0K9
+[0K
+[0;32mtest@test-PC [0;35m [0;33m/f/York/Courses/Math_4939/LfxDerivPackage[0;36m (mas[0Kt
+[0m$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0K[10G[?25l$ git ad .[0K[?25h[?25l$ git ad[0K[10G[?25h[9G[?25l$ git add[0K[?25h[11G[?25l$ git add .[0K[?25h[?25l
+[0K[?25h

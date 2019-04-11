@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555012669770.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "46B0F00F",
+    "lastKnownWriteTime" : 1555018540,
+    "last_content_update" : 1555018540091,
+    "path" : "F:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv/tests/testthat/tests.R",
+    "project_path" : "tests/testthat/tests.R",
+    "properties" : {
+        "cursorPosition" : "62,37",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

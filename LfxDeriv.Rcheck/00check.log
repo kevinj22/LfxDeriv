@@ -1,0 +1,84 @@
+* using log directory 'F:/York/Courses/Math_4939/LfxDerivPackage/LfxDeriv.Rcheck'
+* using R version 3.5.1 (2018-07-02)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using options '--no-manual --as-cran'
+* checking for file 'LfxDeriv/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'LfxDeriv' version '0.1.0'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'LfxDeriv' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+Deriv_: no visible global function definition for 'D'
+Deriv_: no visible global function definition for 'modifyList'
+LfxDerivData: no visible global function definition for
+  'getFactorNames'
+LfxDerivData: no visible global function definition for 'terms'
+LfxDerivData: no visible global function definition for 'getData'
+LfxDerivData: no visible global function definition for 'getFix'
+LfxDerivative: no visible global function definition for
+  'getFactorNames'
+LfxDerivative: no visible global function definition for 'terms'
+LfxDerivative: no visible global function definition for 'getData'
+natcompare: no visible global function definition for 'head'
+Undefined global functions or variables:
+  D getData getFactorNames getFix head modifyList terms
+Consider adding
+  importFrom("stats", "D", "terms")
+  importFrom("utils", "head", "modifyList")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  'Cache' 'Deriv' 'Deriv_' 'Leaves' 'LfxDerivData' 'LfxDerivative'
+  'Lincomb' 'Numden' 'Simplify' 'Simplify.(' 'Simplify.*' 'Simplify.+'
+  'Simplify.-' 'Simplify./' 'Simplify.=' 'Simplify.^' 'Simplify.abs'
+  'Simplify.bessel' 'Simplify.if' 'Simplify.log' 'Simplify.sign'
+  'Simplify.sqrt' 'Simplify.{' 'Simplify_' 'deCache' 'dlin' 'drule'
+  'format1' 'ind2call' 'is.assign' 'is.conuloch' 'is.neg.expr'
+  'is.numconst' 'is.subindex' 'is.uminus' 'is.unumeric' 'is.uplus'
+  'lc2expr' 'li2sum' 'natcompare' 'nd2expr' 'negate.expr' 'reArrange'
+  'simplifications' 'toporder'
+All user-level objects in a package should have documentation entries.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* DONE
+Status: 2 WARNINGs, 1 NOTE
